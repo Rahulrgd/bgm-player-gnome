@@ -1,0 +1,14 @@
+{
+  "uuid": "background-music-player@rahul.local",
+  "name": "Background Music Player",
+  "description": "Play local music in the background from a top panel menu.",
+  "shell-version": [
+    "46"
+  ],
+  "session-modes": [
+    "user",
+    "unlock-dialog"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.background-music-player",
+  "version-name": "1.0.0"
+}

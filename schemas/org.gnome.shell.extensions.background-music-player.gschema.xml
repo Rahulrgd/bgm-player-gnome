@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.background-music-player"
+          path="/org/gnome/shell/extensions/background-music-player/">
+
+    <key name="music-folder" type="s">
+      <default>''</default>
+      <summary>Music folder</summary>
+      <description>Folder to scan for music. Empty means the XDG Music directory.</description>
+    </key>
+
+    <key name="recursive-scan" type="b">
+      <default>false</default>
+      <summary>Scan subfolders</summary>
+    </key>
+
+    <key name="last-track-uri" type="s">
+      <default>''</default>
+      <summary>Last selected or playing track URI</summary>
+    </key>
+
+    <key name="last-position-ms" type="x">
+      <default>0</default>
+      <summary>Last playback position in milliseconds</summary>
+    </key>
+
+    <key name="volume" type="d">
+      <range min="0.0" max="1.0"/>
+      <default>0.7</default>
+      <summary>Player volume</summary>
+      <description>Volume of this player only, independent of the system volume.</description>
+    </key>
+
+    <key name="muted" type="b">
+      <default>false</default>
+      <summary>Player muted</summary>
+    </key>
+
+    <key name="loop-mode" type="s">
+      <choices>
+        <choice value="none"/>
+        <choice value="one"/>
+        <choice value="all"/>
+      </choices>
+      <default>'none'</default>
+      <summary>Loop mode</summary>
+    </key>
+
+    <key name="shuffle" type="b">
+      <default>false</default>
+      <summary>Shuffle playback</summary>
+    </key>
+
+    <key name="autoplay" type="b">
+      <default>false</default>
+      <summary>Autoplay last track on login</summary>
+    </key>
+
+    <key name="resume-position" type="b">
+      <default>true</default>
+      <summary>Resume from last position when autoplaying</summary>
+    </key>
+
+  </schema>
+</schemalist>

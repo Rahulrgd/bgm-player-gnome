@@ -1,0 +1,68 @@
+.bmp-menu {
+  min-width: 320px;
+  max-width: 420px;
+}
+
+.bmp-music-list {
+  max-height: 320px;
+}
+
+.bmp-show-more {
+  font-style: italic;
+}
+
+.bmp-player {
+  spacing: 8px;
+  padding: 4px 0;
+}
+
+.bmp-title {
+  font-weight: bold;
+}
+
+.bmp-controls {
+  spacing: 6px;
+}
+
+.bmp-control-button {
+  padding: 8px;
+  border-radius: 99px;
+}
+
+.bmp-control-button:hover,
+.bmp-control-button:focus {
+  background-color: rgba(127, 127, 127, 0.2);
+}
+
+.bmp-toggle-button:checked {
+  color: #78aeed;
+}
+
+.bmp-play-button {
+  padding: 10px;
+  background-color: rgba(127, 127, 127, 0.2);
+}
+
+.bmp-play-button:hover,
+.bmp-play-button:focus {
+  background-color: rgba(127, 127, 127, 0.35);
+}
+
+.bmp-mute-button {
+  padding: 4px;
+  border-radius: 99px;
+}
+
+.bmp-mute-button:hover,
+.bmp-mute-button:focus {
+  background-color: rgba(127, 127, 127, 0.2);
+}
+
+.bmp-seek-row {
+  spacing: 8px;
+}
+
+.bmp-time {
+  font-size: 0.85em;
+  font-feature-settings: "tnum";
+}
